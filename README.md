@@ -14,6 +14,15 @@ node server.js
 ```
 Server will start on http://localhost:4000
 
+## Run with Docker
+
+To run this API inside a container:
+
+```bash
+docker build -t backend-api .
+docker run -d --name backend -p 4000:4000 backend-api
+```
+
 ## Used in this Docker networking tutorial
 
 If you're following along with my tutorial on [Docker networking]() on dev.to, this repo is used as the backend service.
