@@ -1,15 +1,11 @@
 const express = require('express');
 const cors = require('cors');
+const users = require('./data/users');
 
 const app = express();
-const PORT = 4000; // Change port to 4000 to avoid conflict
+const PORT = 4000;
 
 app.use(cors());
-
-const users = [
-  { id: 1, name: 'Ada Lovelace', email: 'ada@example.com' },
-  { id: 2, name: 'Alan Turing', email: 'alan@example.com' },
-];
 
 // Health check
 app.get('/', (req, res) => {
