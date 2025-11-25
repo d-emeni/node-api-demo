@@ -34,7 +34,7 @@ docker run -d \
 
 ## Used in the Docker Networking Tutorial
 
-This repo is used as the backend service in the Docker networking tutorial on [dev.to]()
+This repo is used as the backend service in the Docker networking tutorial on [dev.to](https://dev.to/deborahemeni1/docker-networking-how-to-connect-containers-in-a-full-stack-project-3l98)
 
 In that tutorial, you'll learn how to:
 
